@@ -12,3 +12,5 @@
 		- JDK (Java Development Kid) เครื่องมือสำหรับช่วยนักพัฒนาเขียนโค้ด
 		- JRE (Java Runtime Environment) มี Libraries และ toolkits
 		- JVM (Java Virtual Machine) แปล Byte Code ไปเป็น Machine Code
+
+	* main จะถูกเรียกใช้เป็นที่แรกเมื่อทำการ Compile
