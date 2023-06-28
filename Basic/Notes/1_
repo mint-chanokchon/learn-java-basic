@@ -1,0 +1,7 @@
+
+	* Compile เป็นการแปล Source Code เป็น Machine Code
+		
+	* โดยปกติแล้วเมื่อเราแปลง Source Code บน Mac จะไม่สามารถนำไปใช้กับ Windows ได้
+	ในภาษา Java จะแก้ปัญหาโดยการแปลง Source Code (.java) เป็น Byte Code (.class)
+	แล้วจึงทำการแปลงเป็น object code (machine code)
+	
