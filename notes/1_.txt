@@ -1,0 +1,14 @@
+
+	* Compile เป็นการแปล Source Code เป็น Machine Code
+		
+	* โดยปกติแล้วเมื่อเราแปลง Source Code บน Mac จะไม่สามารถนำไปใช้กับ Windows ได้
+	ในภาษา Java จะแก้ปัญหาโดยการแปลง Source Code (.java) เป็น Byte Code (.class)
+	แล้วจึงทำการแปลงเป็น object code (machine code)
+	
+	* การใช้งาน Byte Code ทำให้เราสามารถแปลง Source Code ไปใช้งานบนระบบอะไรก็ได้ เพียงแค่เราติดตั้ง JVM 
+	ในเครื่องนั้น เพื่อให้มันทำการแปล Byte Code ไปเป็น object code บนเครื่องที่มันกำลังทำงาน
+	
+	* ส่วนประกอบของ Java
+		- JDK (Java Development Kid) เครื่องมือสำหรับช่วยนักพัฒนาเขียนโค้ด
+		- JRE (Java Runtime Environment) มี Libraries และ toolkits
+		- JVM (Java Virtual Machine) แปล Byte Code ไปเป็น Machine Code
